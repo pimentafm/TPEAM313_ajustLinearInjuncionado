@@ -1,0 +1,39 @@
+Estação X(m) stdd_x(m) Y(m) stdd_y(m)
+A  100.001    0.003  400.004    0.003
+B  200.004    0.003  300.000    0.003
+C  400.005    0.003  300.005    0.003
+D  500.002    0.003  400.000    0.003
+
+Alinhamento Distância(m) stdd_d(m)
+A-p  282.843    0.010
+B-p  316.228    0.010
+C-p  316.228    0.010
+D-p  282.843    0.010
+
+ELEMENTOS DAS ELIPSES DOS ERROS
+Ponto semi-eixo maior semi-eixo menor Azimute
+A   0.0041   0.0027   1.5708
+B   0.0013   0.0013   2.3562
+C   0.0013   0.0013   1.8925
+D   0.0013   0.0013   1.2490
+
+ELIPSE DO PONTO p
+Ponto semi-eixo maior semi-eixo menor Azimute
+p   0.0041   0.0027   1.5708
+
+Coordenadas Ajustapadas do ponto p
+p 300.0026 600.0025
+
+Resíduos Padrozinados (m)
+ -0.2714
+  0.7786
+ -0.9504
+  0.5018
+ -0.0576
+ -0.0576
+  0.0739
+  0.2216
+  0.0902
+ -0.2705
+ -0.1065
+  0.1065
