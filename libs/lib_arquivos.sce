@@ -80,5 +80,9 @@ function geraRelatorio(Xa, MVCxy)
     for i = 1: length(RP)
         mfprintf(fd,'%8.4f\n', RP(i));
     end
+    
+    mfprintf(fd, '\n%s\n', "Número de iterações");
+    mfprintf(fd, '%i\n', it);
+    
     mclose(fd);
 endfunction

@@ -51,10 +51,10 @@ function calcular_callback(handles)
     //Obtem vetor X0
     [X0] = getX0(Lb, Xa, pos);
  
-    X = 10;
-    i=0;
-    while(max(abs(X)) > eps)
-        i=i+1;
+    X = 100;
+    it=0;
+    while(max(abs(X)) > eps & it < 10)
+        it=it+1;
         
         //Obtem o vetor L0
         L0 = inters_linear_2D_red(X0);
